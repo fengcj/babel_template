@@ -11,10 +11,8 @@
     "rimraf": "^2.6.1"
   },
   "scripts": {
-
-    "prebuild" : "node_modules/.bin/rimraf dist",
-    "build" : "node_modules/.bin/babel --out-dir dist src"
-
-
+    "prebuild": "node_modules/.bin/rimraf dist",
+    "build": "node_modules/.bin/babel --out-dir dist src",
+    "start": "node_modules/.bin/babel-node src/index.js"
   }
 }
